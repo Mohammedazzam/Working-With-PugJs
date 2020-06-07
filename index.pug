@@ -3,8 +3,6 @@ html
     head
         title My CV
     body
-    .mohammed
-        button.mohammed
         div(class ='main-container')
             h2(class='main-title',id='main') My Skills
             // start My Skills
@@ -23,4 +21,26 @@ html
             |
             .
                 This Text Belong To ?
+
+        forme
+            h2.contact-title Contact My
+            input(
+                class='f-c',
+                 type='text',
+                 name='user',
+                 style={'background-color':'red', 'color': 'white'}
+                 )
+            input(
+                class='f-c', 
+                type='email',
+                name='email'
+                )
+            input(
+                class='f-c',
+                 type='text',
+                 name='subject'
+                 )
+            //- button(style='background-color:red;color:white') Send
+            button(style={'background-color':'red', 'color': 'white'}) Send
+            button Reset
 
