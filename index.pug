@@ -1,8 +1,11 @@
 doctype html
 html
     head
+        meta(charset='utf-8')
+        meta(name="description" content="Learn PugJs")
         title My CV
-    body
+        //- include incloudes/styles.pug
+    body 
         div(class ='main-container')
             h2(class='main-title',id='main') My Skills
             // start My Skills
@@ -43,4 +46,8 @@ html
             //- button(style='background-color:red;color:white') Send
             button(style={'background-color':'red', 'color': 'white'}) Send
             button Reset
+
+        //- include includes/scripts.js    
+
+            
 
