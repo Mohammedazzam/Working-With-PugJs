@@ -1,3 +1,4 @@
+include incloudes/myvares
 doctype html
 html
     head
@@ -10,10 +11,16 @@ html
             h2(class='main-title',id='main') My Skills
             // start My Skills
             ul(class = 'skill')
-                li php
+                li(class='testing ' + className) php
                 li MySql
                 li Sass
                 li PugJs
+            div(class ='parent') Parent Dev
+                div(class= 'child ' + className ) child Dev
+                div chil
+            //- div= 'This <strong>Tag<strong>Will Not Appera'    
+            div!= 'This <strong>Tag<strong>Will Not Appera'    
+
             p.main-paragrahe I Love <b>Pug js</b>
             p#main
                 | I SSS
