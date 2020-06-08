@@ -49,12 +49,22 @@ html
             //-     div= index + ' : ' + val
 
 
-            - var myArray = []
-            each val, index in myArray
-                div= index + ' : ' + val
-            else
-                div Theres No Value
+            //- - var myArray = []
+            //- each val, index in myArray
+            //-     div= index + ' : ' + val
+            //- else
+            //-     div Theres No Value
 
+
+
+            ul(class = 'skill-list')
+                li php #{themeName}
+                li MySql #{theamTag}
+                li Sass !{theamTag}
+                li PugJs #{themeName.toUpperCase()}
+                li vue
+            //- This Is For Loop
+            ul
 
             div(class ='parent') Parent Dev
                 div(class= 'child ' + className ) child Dev
